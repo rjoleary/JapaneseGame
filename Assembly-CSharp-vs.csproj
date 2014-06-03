@@ -48,6 +48,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Kenkyuu\Business\Character.cs" />
+    <Compile Include="Assets\Kenkyuu\Business\Contracts\CharacterController.cs" />
+    <Compile Include="Assets\Kenkyuu\Business\Definitions\ExperienceType.cs" />
+    <Compile Include="Assets\Kenkyuu\Business\Inventory\Item.cs" />
+    <Compile Include="Assets\Kenkyuu\Business\MainCharacter.cs" />
+    <Compile Include="Assets\Kenkyuu\Business\Properties\Experience.cs" />
+    <Compile Include="Assets\Kenkyuu\Business\Properties\Statistic.cs" />
+    <Compile Include="Assets\Kenkyuu\Business\Properties\Status.cs" />
     <Compile Include="Assets\Kenkyuu\Presentation\OverWorld\Movement.cs" />
     <Compile Include="Assets\Kenkyuu\Presentation\OverWorld\TrackTarget.cs" />
     <Compile Include="Assets\Kenkyuu\Presentation\SessionState.cs" />
