@@ -9,6 +9,6 @@ public class TrackTarget : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
         Vector3 targetPos = _target.transform.position;
-        transform.position = new Vector3(targetPos.x, targetPos.y, targetPos.z + _distance);
+        transform.position = new Vector3(targetPos.x, targetPos.y + 1, targetPos.z + _distance);
 	}
 }

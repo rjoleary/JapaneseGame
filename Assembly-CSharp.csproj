@@ -46,17 +46,18 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Kenkyuu\Business\Character.cs" />
-     <Compile Include="Assets\Kenkyuu\Business\Contracts\CharacterController.cs" />
-     <Compile Include="Assets\Kenkyuu\Business\Definitions\ExperienceType.cs" />
-     <Compile Include="Assets\Kenkyuu\Business\Inventory\Item.cs" />
-     <Compile Include="Assets\Kenkyuu\Business\MainCharacter.cs" />
-     <Compile Include="Assets\Kenkyuu\Business\Properties\Experience.cs" />
-     <Compile Include="Assets\Kenkyuu\Business\Properties\Statistic.cs" />
-     <Compile Include="Assets\Kenkyuu\Business\Properties\Status.cs" />
+     <Compile Include="Assets\Kenkyuu\Battle\Character.cs" />
+     <Compile Include="Assets\Kenkyuu\Battle\Contracts\CharacterController.cs" />
+     <Compile Include="Assets\Kenkyuu\Battle\Contracts\ItemController.cs" />
+     <Compile Include="Assets\Kenkyuu\Battle\MainCharacter.cs" />
+     <Compile Include="Assets\Kenkyuu\Battle\Properties\Experience.cs" />
+     <Compile Include="Assets\Kenkyuu\Battle\Properties\LevelManager.cs" />
+     <Compile Include="Assets\Kenkyuu\Battle\Properties\Statistic.cs" />
+     <Compile Include="Assets\Kenkyuu\Battle\Properties\Status.cs" />
+     <Compile Include="Assets\Kenkyuu\Inventory\Contracts\Item.cs" />
+     <Compile Include="Assets\Kenkyuu\Presentation\GameState\PartyState.cs" />
      <Compile Include="Assets\Kenkyuu\Presentation\OverWorld\Movement.cs" />
      <Compile Include="Assets\Kenkyuu\Presentation\OverWorld\TrackTarget.cs" />
-     <Compile Include="Assets\Kenkyuu\Presentation\SessionState.cs" />
      <None Include="Assets\NewComputeShader.compute" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
