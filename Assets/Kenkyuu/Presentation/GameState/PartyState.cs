@@ -11,13 +11,9 @@ namespace Assets.Kenkyuu.Presentation.GameState
     {
         private static PartyState instance = null;
         private static readonly object padlock = new object();
-        private static CharacterController mc;
         private static List<CharacterController> party = new List<CharacterController>();
         private static ICharacterFactory factory = new CharacterFactory();
 
-        public static void NewMainCharacter { 
-            mc = factory.MakeMainCharacter();
-        }
         public static PartyState Instance
         {
             get
