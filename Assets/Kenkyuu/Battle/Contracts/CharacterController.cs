@@ -9,8 +9,9 @@ namespace Assets.Kenkyuu.Battle.Contracts
 {
     public interface CharacterController
     {
+        void Equip(Equipable i);
         void UpdateStatus(Status status);
-        Statistic GainExperience(List<TomeExperience> exp);
+        List<Statistic> GainExperience(List<TomeExperience> exp);
         void UseItem(Item item);
     }
 }

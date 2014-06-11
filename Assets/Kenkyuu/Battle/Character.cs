@@ -10,7 +10,6 @@ namespace Assets.Kenkyuu.Battle
 {
     public class Character : CharacterController
     {
-        private Statistic RecentLevelingInfo;
         protected Statistic tempStats;
         protected Statistic baseStatss;
         protected Mind mind;
@@ -25,7 +24,13 @@ namespace Assets.Kenkyuu.Battle
 
         public List<Statistic> GainExperience(List<TomeExperience> exp)
         {
-            return mind.Learn(exp);
+            var gains = mind.Learn(exp);
+
+            foreach (var gain in gains) {
+                baseStatss.AddStat(gain);
+            }
+
+            return gains;
         }
         public void UseItem(Item item){
         

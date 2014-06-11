@@ -53,14 +53,16 @@
     <Compile Include="Assets\Kenkyuu\Battle\Contracts\ICharacterFactory.cs" />
     <Compile Include="Assets\Kenkyuu\Battle\Contracts\ItemController.cs" />
     <Compile Include="Assets\Kenkyuu\Battle\MainCharacter.cs" />
-    <Compile Include="Assets\Kenkyuu\Battle\Properties\TomeExperience.cs" />
     <Compile Include="Assets\Kenkyuu\Battle\Properties\Mind.cs" />
     <Compile Include="Assets\Kenkyuu\Battle\Properties\Statistic.cs" />
     <Compile Include="Assets\Kenkyuu\Battle\Properties\Status.cs" />
     <Compile Include="Assets\Kenkyuu\Battle\Properties\Tome.cs" />
+    <Compile Include="Assets\Kenkyuu\Battle\Properties\TomeExperience.cs" />
+    <Compile Include="Assets\Kenkyuu\Inventory\Contracts\Equipable.cs" />
     <Compile Include="Assets\Kenkyuu\Inventory\Contracts\Item.cs" />
     <Compile Include="Assets\Kenkyuu\Inventory\Weapon.cs" />
     <Compile Include="Assets\Kenkyuu\Presentation\GameState\PartyState.cs" />
+    <Compile Include="Assets\Kenkyuu\Presentation\GameState\StoryState.cs" />
     <Compile Include="Assets\Kenkyuu\Presentation\OverWorld\Movement.cs" />
     <Compile Include="Assets\Kenkyuu\Presentation\OverWorld\TrackTarget.cs" />
     <None Include="Assets\NewComputeShader.compute" />

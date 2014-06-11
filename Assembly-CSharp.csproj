@@ -60,6 +60,7 @@
      <Compile Include="Assets\Kenkyuu\Inventory\Contracts\Item.cs" />
      <Compile Include="Assets\Kenkyuu\Inventory\Weapon.cs" />
      <Compile Include="Assets\Kenkyuu\Presentation\GameState\PartyState.cs" />
+     <Compile Include="Assets\Kenkyuu\Presentation\GameState\StoryState.cs" />
      <Compile Include="Assets\Kenkyuu\Presentation\OverWorld\Movement.cs" />
      <Compile Include="Assets\Kenkyuu\Presentation\OverWorld\TrackTarget.cs" />
      <None Include="Assets\NewComputeShader.compute" />
