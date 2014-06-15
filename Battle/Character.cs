@@ -35,10 +35,14 @@ namespace Assets.Kenkyuu.Battle
         public void UseItem(Item item){
         
         }
-
-        public void Equip(Equipable i) { 
+        public void Attack(CharacterController c) { 
         
         }
+        public void TakeDamage(Statistic s)
+        { 
+        
+        }
+
 
     }
 }

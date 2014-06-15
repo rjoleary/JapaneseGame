@@ -7,10 +7,10 @@ using Assets.Kenkyuu.Business.Inventory;
 
 namespace Assets.Kenkyuu.Business.Contracts
 {
-    interface CharacterController
+    public interface CharacterController
     {
-        public void UpdateStatus(Status status);
-        public void GainExperience(List<Experience> exp);
-        public void UseItem(Item item);
+        void UpdateStatus(Status status);
+        void GainExperience(List<Experience> exp);
+        void UseItem(Item item);
     }
 }

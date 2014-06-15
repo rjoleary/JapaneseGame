@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class MovementAvatar : MonoBehaviour {
+public class Movement : MonoBehaviour {
 
     public float slow = 8.0F;
     public float moderate = 10.0F;

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using Assets.Kenkyuu.Business;
 
-namespace Game.Application
+namespace Kenkyuu.Presentation
 {
     public class SessionState
     {

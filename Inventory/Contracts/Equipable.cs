@@ -6,7 +6,7 @@ using System.Text;
 
 namespace Assets.Kenkyuu.Inventory.Contracts
 {
-    public interface Equipable
+    interface Equipable
     {
         void ApplyChanges(CharacterController c);
 

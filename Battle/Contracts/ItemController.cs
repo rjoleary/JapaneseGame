@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using Assets.Kenkyuu.Business.Inventory;
+using Assets.Kenkyuu.Inventory.Contracts;
 
-namespace Assets.Kenkyuu.Business.Contracts
+namespace Assets.Kenkyuu.Battle.Contracts
 {
     public interface ItemController
     {

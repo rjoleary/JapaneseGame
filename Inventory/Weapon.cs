@@ -3,11 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Assets.Kenkyuu.Business.Definitions
+namespace Assets.Kenkyuu.Inventory
 {
-    public enum ExperienceType
+    class Weapon
     {
-        Level,
-        Word
     }
 }

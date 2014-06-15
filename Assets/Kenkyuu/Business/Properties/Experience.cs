@@ -10,8 +10,7 @@ namespace Assets.Kenkyuu.Business.Properties
     {
         public ExperienceType Type
         {
-            get;
-            set;
+            get; set;
         }
         public int? points
         {

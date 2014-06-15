@@ -3,11 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Assets.Kenkyuu.Business.Definitions
+namespace Assets.Kenkyuu.Battle
 {
-    public enum ExperienceType
+    public class MainCharacter : Character
     {
-        Level,
-        Word
+
     }
 }
