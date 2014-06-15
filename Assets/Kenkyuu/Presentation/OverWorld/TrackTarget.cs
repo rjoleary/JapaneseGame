@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class TrackAvatar : MonoBehaviour {
+public class TrackTarget : MonoBehaviour {
 
 	public float _distance = 5f;
     public GameObject _target;

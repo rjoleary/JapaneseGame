@@ -11,13 +11,11 @@ namespace Assets.Kenkyuu.Battle
     public class Character : CharacterController
     {
         protected Statistic tempStats;
-        protected Statistic baseStatss;
+        protected Statistic baseStats;
         protected Mind mind;
+        private Equipment equips;
 
-        public string Name 
-        {
-            get; set;
-        }
+        public string Name { get; set;  }
         public void UpdateStatus(Status status) {
         
         }
@@ -27,17 +25,16 @@ namespace Assets.Kenkyuu.Battle
             var gains = mind.Learn(exp);
 
             foreach (var gain in gains) {
-                baseStatss.AddStat(gain);
+                baseStats.AddStat(gain);
             }
-
             return gains;
         }
         public void UseItem(Item item){
         
         }
 
-        public void Equip(Equipable i) { 
-        
+        public Equipable Equip(Equipable i) {
+            return null;
         }
 
     }
