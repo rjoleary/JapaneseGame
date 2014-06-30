@@ -16,9 +16,6 @@ namespace Assets.Kenkyuu.Battle
         private Equipment equips;
 
         public string Name { get; set;  }
-        public void UpdateStatus(Status status) {
-        
-        }
 
         public List<Statistic> GainExperience(List<TomeExperience> exp)
         {
@@ -34,7 +31,7 @@ namespace Assets.Kenkyuu.Battle
         }
 
         public Equipable Equip(Equipable i) {
-            return null;
+            throw new NotImplementedException();
         }
 
     }
