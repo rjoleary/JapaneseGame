@@ -14,7 +14,8 @@ namespace Assets.Kenkyuu.Presentation.GameState
         private static List<CharacterController> party = new List<CharacterController>();
         private static ICharacterFactory factory = new CharacterFactory();
 
-        public static void NewGame(){
+        public static void NewGame()
+        {
             party.Add(factory.MakeMainCharacter());
         }
 

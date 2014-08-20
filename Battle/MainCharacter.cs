@@ -7,6 +7,5 @@ namespace Assets.Kenkyuu.Battle
 {
     public class MainCharacter : Character
     {
-
     }
 }

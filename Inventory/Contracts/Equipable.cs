@@ -9,7 +9,6 @@ namespace Assets.Kenkyuu.Inventory.Contracts
     interface Equipable
     {
         void ApplyChanges(CharacterController c);
-
         void UnEquip(CharacterController c);
     }
 }

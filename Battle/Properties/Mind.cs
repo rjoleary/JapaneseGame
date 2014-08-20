@@ -13,7 +13,5 @@ namespace Assets.Kenkyuu.Battle.Properties
         {
             return new List<Statistic>();
         }
-
     }
-
 }

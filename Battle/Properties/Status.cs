@@ -7,6 +7,5 @@ namespace Assets.Kenkyuu.Battle.Properties
 {
     public class Status
     {
-        
     }
 }

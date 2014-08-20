@@ -18,6 +18,7 @@ namespace Assets.Kenkyuu.Battle
         {
             get; set;
         }
+
         public void UpdateStatus(Status status) {
         
         }
@@ -32,17 +33,18 @@ namespace Assets.Kenkyuu.Battle
 
             return gains;
         }
+
         public void UseItem(Item item){
         
         }
+
         public void Attack(CharacterController c) { 
         
         }
+
         public void TakeDamage(Statistic s)
         { 
         
         }
-
-
     }
 }

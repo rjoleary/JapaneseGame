@@ -8,9 +8,6 @@ namespace Assets.Kenkyuu.Battle.Contracts
     public interface ICharacterFactory
     {
         CharacterController MakeMainCharacter();
-
         CharacterController MakeCharacter();
-
-
     }
 }

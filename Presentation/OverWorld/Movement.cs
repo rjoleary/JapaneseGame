@@ -1,8 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Movement : MonoBehaviour {
-
+public class Movement : MonoBehaviour
+{
     public float slow = 8.0F;
     public float moderate = 10.0F;
     public float fast = 12.0F;
@@ -14,7 +14,9 @@ public class Movement : MonoBehaviour {
     private CharacterController controller;
     private Animator anim;
     private float currentSpeed;
-    void Start(){
+
+    void Start()
+    {
         currentSpeed = slow;
         controller = GetComponent<CharacterController>();
         anim = GetComponent<Animator>();
@@ -68,6 +70,5 @@ public class Movement : MonoBehaviour {
             moveDirection.y -= gravity * Time.deltaTime;
             moveDirection.y = Mathf.Max(-1 * terminalVelocity, moveDirection.y);
         }
-            
     }
 }

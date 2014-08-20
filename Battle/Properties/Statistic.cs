@@ -21,7 +21,6 @@ namespace Assets.Kenkyuu.Battle.Properties
         public int ArmourPenetration { get; set; }
         public int ResistPenetration { get; set; }
 
-
         public void AddStat(Statistic gain)
         {
             MaxHealth += gain.MaxHealth;

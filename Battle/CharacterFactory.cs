@@ -7,7 +7,6 @@ using Assets.Kenkyuu.Battle.Contracts;
 namespace Assets.Kenkyuu.Battle
 {
     public class CharacterFactory : ICharacterFactory
-
     {
         public CharacterController MakeMainCharacter() {
             return new MainCharacter();
